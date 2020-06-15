@@ -2,7 +2,6 @@
 
 
 def position_taken?(board, index_number)
-  index = board[index_number.to_i - 1]
   index == "X" || index == "O"
   index != "" && index != " " && index != nil
 end
