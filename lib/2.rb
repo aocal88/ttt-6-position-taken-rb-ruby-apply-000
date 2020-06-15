@@ -1,13 +1,14 @@
-# code your #position_taken? method here!
-
 board = ["", "X", "O", "X", "O", " ", "X", "O", nil]
+
 
 def position_taken?(board, index_number)
   index = board[index_number.to_i - 1]
-  index == "X" || index == "O"
-  index != "" && index != " " && index != nil
+  if index == "X" || index == "O"
+    true
+  elsif index == "" || index == " " || index == nil
+    false
+  end
 end
-
 
 puts position_taken?(board, 1)
 puts position_taken?(board, 2)
