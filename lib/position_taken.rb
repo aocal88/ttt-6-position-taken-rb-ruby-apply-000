@@ -1,6 +1,5 @@
 # code your #position_taken? method here!
 
-board = ["", "X", "O", "X", "O", " ", "X", "O", nil]
 
 def position_taken?(board, index_number)
   index = board[index_number.to_i - 1]
