@@ -1,4 +1,3 @@
-board = ["", "X", "O", "X", "O", " ", "X", "O", nil]
 
 
 def position_taken?(board, index_number)
