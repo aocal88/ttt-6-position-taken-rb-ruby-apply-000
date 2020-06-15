@@ -8,13 +8,3 @@ def position_taken?(board, index_number)
     false
   end
 end
-
-position_taken?(board, 1)
-position_taken?(board, 2)
-position_taken?(board, 3)
-position_taken?(board, 4)
-position_taken?(board, 5)
-position_taken?(board, 6)
-position_taken?(board, 7)
-position_taken?(board, 8)
-position_taken?(board, 9)
